@@ -18,5 +18,5 @@ jobs:
       - name: Run ReviewForge
         uses: nitin-devx/Reviewforge@main
         with:
-          github_token: ${{ secrets.GITHUBB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
